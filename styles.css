@@ -129,4 +129,32 @@ nav a {
     text-align: center;
         }
 
+#supplies {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: steelblue;
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+}
+                
+.supplies {
+    position: relative;
+    background-color: steelblue;
+            opacity: 0.9;
+            border-radius: 4px;
+            border: 4px solid black;
+            border-style: groove;
+        }
+                
+        .about h2 {
+            color: rgb(218, 235, 235);
+            text-shadow: 1px 1px darkblue;
+            font-size: 46px;
+            margin: 15px;
+            text-align: center;
+                }
 
