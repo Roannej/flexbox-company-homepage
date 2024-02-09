@@ -129,19 +129,16 @@ nav a {
     text-align: center;
     }
 
-.supplies-heading {
+#supplies-heading {
     font-family: 'Times New Roman', Times, serif;
     font-size: 26px;
     background-image: linear-gradient(to right, rgb(102, 92, 37), rgb(146, 132, 53), rgb(192, 174, 70), rgb(146, 132, 53));
-    padding: 10px 15px;
     max-width: 300px;
-        /*FIX-ALIGNMENT*/
-    border: 2px solid black;
+    width: 30%;
+    margin: 10px auto;
+    border: 3px solid black;
     border-style: inset;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-content: center;
+    text-align: center;
     }
 
 #supplies {
