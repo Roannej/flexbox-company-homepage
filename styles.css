@@ -24,7 +24,6 @@ html {
     Helvetica, sans-serif;
     font-size: 16px;
     background-image: linear-gradient(to right, steelblue, lightgrey, white, lightgrey, steelblue);
-    /*rgb(238, 167, 142);*/
   }
 
 /*HEADER CODE*/
@@ -351,4 +350,127 @@ button img {
     padding: 5px;
     border-radius: 10%;
     background-color:rgb(0, 0, 0);
+}
+
+/*HEADER MEDIA CODE*/
+@media only screen and (max-width: 760px) {
+    .item1 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .item2 {
+        font-size: 28px; /* Adjust font size for smaller screens */
+        margin: 10px; /* Adjust margin for smaller screens */
+        padding: 0 20px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .item1 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .item2 {
+        font-size: 28px; /* Adjust font size for smaller screens */
+        margin: 10px; /* Adjust margin for smaller screens */
+        padding: 0 20px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .item1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+        margin: 5px; /* Adjust margin for smaller screens */
+    }
+
+    .item2 {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        margin: 5px; /* Adjust margin for smaller screens */
+        padding: 0 10px; /* Adjust padding for smaller screens */
+    }
+}
+
+/*NAV MEDIA CODE*/
+@media only screen and (max-width: 760px) {
+    .banner nav {
+        flex-direction: column; /* Stack navigation vertically */
+        align-items: center; /* Center navigation items */
+    }
+
+    nav li {
+        padding: 3px 0; /* Adjust padding for smaller screens */
+    }
+
+    nav a {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .banner nav {
+        flex-direction: column; /* Stack navigation vertically */
+        align-items: center; /* Center navigation items */
+    }
+
+    nav li {
+        padding: 2px 0; /* Adjust padding for smaller screens */
+    }
+
+    nav a {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+/*REST OF BODY MEDIA CODES*/
+@media only screen and (max-width: 760px) {
+    .about {
+        max-width: 90%; /* Adjust max-width for smaller screens */
+        left: 5%; /* Adjust position for smaller screens */
+    }
+
+    .about h2 {
+        font-size: 32px; /* Adjust font size for smaller screens */
+    }
+
+    #team h3 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .team img {
+        width: 150px; /* Adjust image width for smaller screens */
+        height: 200px; /* Adjust image height for smaller screens */
+        margin: 0 5px; /* Adjust margin for smaller screens */
+    }
+
+    .team span {
+        font-size: 12px; /* Adjust font size for smaller screens */
+        margin: 5px 5px 15px; /* Adjust margin for smaller screens */
+    }
+}
+@media only screen and (max-width: 320px) {
+    .about {
+        max-width: 95%; /* Adjust max-width for smaller screens */
+        left: 2.5%; /* Adjust position for smaller screens */
+    }
+
+    .about h2 {
+        font-size: 28px; /* Adjust font size for smaller screens */
+    }
+
+    #team h3 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    .team img {
+        width: 120px; /* Adjust image width for smaller screens */
+        height: 180px; /* Adjust image height for smaller screens */
+        margin: 0 5px; /* Adjust margin for smaller screens */
+    }
+
+    .team span {
+        font-size: 10px; /* Adjust font size for smaller screens */
+        margin: 5px 5px 15px; /* Adjust margin for smaller screens */
+    }
 }
