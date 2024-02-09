@@ -47,7 +47,7 @@ html {
 .item2 {
     color: rgb(218, 235, 235);
     text-shadow: 1px 1px darkblue;
-    font-size: 46px;
+    font-size: 40px;
     margin: 15px;
     padding: 0 45px;
     text-align: center;
@@ -57,7 +57,7 @@ html {
     border: 5px solid rgb(49, 98, 138);
     margin: 10px;
     border-style:groove;
-    background-color: rgb(3, 2, 1);
+    background-image: linear-gradient(to right, rgb(102, 92, 37), rgb(146, 132, 53), rgb(192, 174, 70), rgb(146, 132, 53));;
 }
 
 .banner{
@@ -184,5 +184,11 @@ nav a {
     justify-content: center;
     }
                 
+.supplies-images a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
 
 
