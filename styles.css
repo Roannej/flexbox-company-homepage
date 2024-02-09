@@ -327,3 +327,28 @@ button img {
     justify-content: center;
 }
 
+#contact {
+    margin: 20px;
+}
+
+.contact1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    }
+
+.contact2 {
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#contact a {
+    text-decoration: none;
+    color: rgb(114, 101, 24);
+    text-shadow: 0.5px 0.5px white;
+    border: 3px solid steelblue;
+    padding: 5px;
+    border-radius: 10%;
+    background-color:rgb(0, 0, 0);
+}
