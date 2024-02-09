@@ -24,6 +24,7 @@ html {
     Helvetica, sans-serif;
     font-size: 16px;
     background-image: linear-gradient(to right, steelblue, lightgrey, white, lightgrey, steelblue);
+    background-repeat: no-repeat;
   }
 
 /*HEADER CODE*/
@@ -323,6 +324,7 @@ button img {
 
 .button-flex {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -354,19 +356,6 @@ button img {
 
 /*HEADER MEDIA CODE*/
 @media only screen and (max-width: 760px) {
-    .item1 {
-        font-size: 36px; /* Adjust font size for smaller screens */
-        margin: 10px; /* Adjust margin for smaller screens */
-    }
-
-    .item2 {
-        font-size: 28px; /* Adjust font size for smaller screens */
-        margin: 10px; /* Adjust margin for smaller screens */
-        padding: 0 20px; /* Adjust padding for smaller screens */
-    }
-}
-
-@media only screen and (max-width: 320px) {
     .item1 {
         font-size: 36px; /* Adjust font size for smaller screens */
         margin: 10px; /* Adjust margin for smaller screens */
@@ -474,3 +463,89 @@ button img {
         margin: 5px 5px 15px; /* Adjust margin for smaller screens */
     }
 }
+/*MEDIA CODE FOR EVENTS*/
+@media only screen and (max-width: 760px) {
+    #events h3 {
+        font-size: 28px;
+        margin-top: 15px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .main-event img {
+        max-width: 180px;
+        height: 270px;
+    }
+
+    .img1 {
+        transform: rotate(-20deg);
+    }
+    
+    .img2 {
+        transform: rotate(20deg);
+    }
+
+    .main-event p {
+        font-size: 16px;
+        margin-top: 2%;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        font-weight: 800;
+        }
+}
+
+@media only screen and (max-width: 320px) {
+    #events h3 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .main-event img {
+        max-width: 80px;
+        height: 120px;
+        margin-top: 15px;
+    }
+
+    .img1 {
+        transform: rotate(0deg);
+    }
+    
+    .img2 {
+        transform: rotate(0deg);
+    }
+
+    .main-event p {
+        font-size: 10px;
+        margin-top: 15px;
+        text-align: center;
+        font-weight: 800;
+        }
+}
+
+
+/*MEDIA CODE FOR TUTORIAL*/
+@media only screen and (max-width: 760px) {
+    #tutorials h3 {
+        font-size: 28px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) { 
+    #tutorials h3 {
+        font-size: 18px;
+    }
+      
+    button img {
+        width: 200px;
+        height: 125px;
+        }
+    
+    .button-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
